@@ -16,7 +16,7 @@ import com.matiasaravena.sistemareportes.network.MediaHelper;
 public class DetalleReporteActivity extends AppCompatActivity {
 	
 	private int reporteId;
-	private EditText txtTitulo, txtDesc; // Ahora son EditText para poder editar
+	private EditText txtTitulo, txtDesc;
 	private TextView lblGPS;
 	private Button btnAudio;
 	private MediaHelper mediaHelper;
@@ -27,9 +27,9 @@ public class DetalleReporteActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detalle_reporte);
 		
-		// 1. Vincular Vistas (OJO CON LOS IDs AQUÍ)
-		txtTitulo = findViewById(R.id.txtDetalleTitulo); // Corregido: txt en vez de lbl
-		txtDesc = findViewById(R.id.txtDetalleDesc);     // Corregido: txt en vez de lbl
+		// 1. Vincular Vistas
+		txtTitulo = findViewById(R.id.txtDetalleTitulo);
+		txtDesc = findViewById(R.id.txtDetalleDesc);
 		lblGPS = findViewById(R.id.lblDetalleGPS);
 		btnAudio = findViewById(R.id.btnEscucharAudio);
 		
