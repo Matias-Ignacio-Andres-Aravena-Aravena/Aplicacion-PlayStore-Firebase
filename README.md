@@ -30,7 +30,7 @@ Este proyecto representa la implementación completa de un sistema móvil para l
 **Nota:** Los archivos de imagen deben estar en la **raíz del repositorio** (junto a este README).
 
 ### Diagrama de Clases (UML)
-![Diagrama UML del Sistema](Diagrama%20Clases%20Android%203%20Final.png)
+![Diagrama UML del Sistema](Diagrama-de-clases-fondo.png)
 
 ### Diagrama de Secuencia
 ![Diagrama de Secuencia de las pantallas](Diagrama%20de%20Secuencia%20Activities.png)
