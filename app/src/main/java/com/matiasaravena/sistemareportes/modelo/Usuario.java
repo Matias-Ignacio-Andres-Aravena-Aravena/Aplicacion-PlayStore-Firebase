@@ -15,7 +15,7 @@ public class Usuario {
 		this.password = password;
 	}
 	
-	// Getters y Setters (Generar con Alt+Insert)
+	// Getters y Setters
 	public int getId() { return id; }
 	public void setId(int id) { this.id = id; }
 	public String getNombre() { return nombre; }
