@@ -50,8 +50,8 @@ public class ListaReportesActivity extends AppCompatActivity {
 				String desc = fila.getString(2);
 				double lat = fila.getDouble(3);
 				double lon = fila.getDouble(4);
-				String foto = fila.getString(5); // Columna 5
-				String audio = fila.getString(6); // Columna 6
+				String foto = fila.getString(5);
+				String audio = fila.getString(6);
 				
 				Reporte r = new Reporte(tit, desc, lat, lon);
 				r.setId(id);
