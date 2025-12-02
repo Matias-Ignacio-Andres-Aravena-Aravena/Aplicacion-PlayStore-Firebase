@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
 		if (fila.moveToFirst()) {
 			String nombreUsuario = fila.getString(0);
 			
-			// --- AQUÍ ESTÁ EL TRUCO: GUARDAMOS LA SESIÓN ---
+			// --- GUARDAMOS LA SESIÓN ---
 			SharedPreferences preferencias = getSharedPreferences("sesion_usuario", Context.MODE_PRIVATE);
 			SharedPreferences.Editor editor = preferencias.edit();
 			editor.putString("email_activo", email); // Guardamos el correo para usarlo en el perfil
