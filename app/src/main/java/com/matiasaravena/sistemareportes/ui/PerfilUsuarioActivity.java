@@ -33,7 +33,7 @@ public class PerfilUsuarioActivity extends AppCompatActivity {
 			// Al cerrar sesión, borramos la memoria
 			SharedPreferences preferencias = getSharedPreferences("sesion_usuario", Context.MODE_PRIVATE);
 			SharedPreferences.Editor editor = preferencias.edit();
-			editor.clear(); // Borra todo
+			editor.clear();
 			editor.apply();
 			
 			Toast.makeText(this, "Sesión cerrada", Toast.LENGTH_SHORT).show();
