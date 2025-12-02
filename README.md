@@ -36,7 +36,7 @@ Este proyecto representa la implementación completa de un sistema móvil para l
 ![Diagrama de Secuencia de las pantallas](Diagrama%20de%20Secuencia%20Activities.png)
 
 ### Diagrama de Flujo (Creación de Reporte)
-![Diagrama de Flujo del Proceso CREATE](flujo_creacion.png)
+![Diagrama de Flujo del Proceso CREATE](Diagrama-flujo.png)
 
 ---
 
