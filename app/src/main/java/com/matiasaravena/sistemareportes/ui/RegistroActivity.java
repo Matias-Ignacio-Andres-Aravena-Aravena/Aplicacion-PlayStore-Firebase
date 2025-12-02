@@ -19,7 +19,7 @@ public class RegistroActivity extends AppCompatActivity {
 		
 		EditText txtNombre = findViewById(R.id.txtNombreReg);
 		EditText txtEmail = findViewById(R.id.txtEmailReg);
-		EditText txtPass = findViewById(R.id.txtPassReg); // Asegúrate que el ID sea correcto en tu XML
+		EditText txtPass = findViewById(R.id.txtPassReg);
 		Button btnRegistrar = findViewById(R.id.btnRegistrar);
 		
 		btnRegistrar.setOnClickListener(v -> {
