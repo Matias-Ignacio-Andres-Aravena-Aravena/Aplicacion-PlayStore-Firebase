@@ -27,8 +27,6 @@ Este proyecto representa la implementación completa de un sistema móvil para l
 
 ## 📐 Diagramas de Diseño (Documentación)
 
-**Nota:** Los archivos de imagen deben estar en la **raíz del repositorio** (junto a este README).
-
 ### Diagrama de Clases (UML)
 ![Diagrama UML del Sistema](Diagrama-de-clases-fondo.png)
 
