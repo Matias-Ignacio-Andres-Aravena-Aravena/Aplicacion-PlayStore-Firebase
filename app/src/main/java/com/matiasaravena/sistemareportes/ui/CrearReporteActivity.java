@@ -44,7 +44,6 @@ public class CrearReporteActivity extends AppCompatActivity {
 	private Button btnFoto, btnAudio, btnGps, btnGuardar;
 	
 	private GpsHelper gpsHelper;
-	// Quitamos MediaHelper de aquí porque ahora lo usa la otra actividad
 	
 	private double latitud = 0.0, longitud = 0.0;
 	private String rutaFoto = "";
@@ -81,7 +80,7 @@ public class CrearReporteActivity extends AppCompatActivity {
 			}
 		});
 		
-		// BOTÓN AUDIO (Ahora abre la otra pantalla)
+		// BOTÓN AUDIO
 		btnAudio.setOnClickListener(v -> {
 			Intent intent = new Intent(CrearReporteActivity.this, GrabadoraAudioActivity.class);
 			startActivityForResult(intent, REQUEST_AUDIO_CAPTURE);
