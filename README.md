@@ -18,11 +18,15 @@ Este proyecto representa la implementación completa de un sistema móvil para l
 **(Las imágenes deben estar en la misma carpeta que este archivo: README.md)**
 
 ### Diagrama de Clases (UML)
-![Diagrama UML del Sistema](diagrama_clases_final.png) 
+![Diagrama UML del Sistema](Diagrama-Clases-App-Reporte-Foto-Audio.png) 
 
 ### Diagrama de Flujo (Creación de Reporte)
 ![Diagrama de Flujo del Proceso CREATE](flujo_creacion.png)
 
+### Diagrama de Secuencia
+![Diagrama de Secuencia de las pantallas](Diagrama-de-Secuencia-Activities.png)
+
 -----
 
-**¡El proyecto ha sido subido correctamente a GitHub\!**
+**Matías Aravena**
+**Programación Android**
