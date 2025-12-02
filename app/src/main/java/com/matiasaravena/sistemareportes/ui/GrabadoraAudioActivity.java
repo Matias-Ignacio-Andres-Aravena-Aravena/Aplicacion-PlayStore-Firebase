@@ -61,7 +61,7 @@ public class GrabadoraAudioActivity extends AppCompatActivity {
 			estaGrabando = false;
 		}
 		
-		// --- AQUÍ ESTÁ LA MAGIA: DEVOLVER DATOS ---
+		// --- DEVOLVER DATOS ---
 		Intent resultIntent = new Intent();
 		resultIntent.putExtra("AUDIO_PATH", archivoSalida); // Mandamos la ruta de vuelta
 		setResult(Activity.RESULT_OK, resultIntent);
