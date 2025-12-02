@@ -68,7 +68,7 @@ public class ReporteAdapter extends RecyclerView.Adapter<ReporteAdapter.ViewHold
 				try {
 					MediaHelper mediaHelper = new MediaHelper();
 					mediaHelper.reproducirAudio(reporte.getUrlAudio());
-					Toast.makeText(context, "🔊 Reproduciendo nota de voz...", Toast.LENGTH_SHORT).show();
+					Toast.makeText(context, "Reproduciendo nota de voz...", Toast.LENGTH_SHORT).show();
 				} catch (Exception e) {
 					Toast.makeText(context, "Error al reproducir audio", Toast.LENGTH_SHORT).show();
 				}
